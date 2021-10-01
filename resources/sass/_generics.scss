@@ -16,6 +16,9 @@ body{
 .container{
   max-width: 1200px;
   margin: 0 auto;
+  .row{
+      display: flex;
+  }
 }
 
 
@@ -50,6 +53,9 @@ a{
   li{
     display: inline;
   }
+}
+.d-flex{
+    display: flex;
 }
 /*MARGIN E PADDING*/
 .mt-2{

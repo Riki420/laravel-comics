@@ -1,3 +1,12 @@
+/*TEXT*/
+.dc-text {
+  color: #0c7cec;
+}
+
+.text-center {
+  text-align: center;
+}
+
 /*RESET*/
 * {
   margin: 0;
@@ -18,6 +27,9 @@ body {
 .container {
   max-width: 1200px;
   margin: 0 auto;
+}
+.container .row {
+  display: flex;
 }
 
 img {
@@ -51,6 +63,10 @@ a {
 
 .d-inline li {
   display: inline;
+}
+
+.d-flex {
+  display: flex;
 }
 
 /*MARGIN E PADDING*/
@@ -119,4 +135,103 @@ header {
 
 figure {
   padding: 6px;
+}
+
+.jumbotron {
+  min-height: 500px;
+  background-image: url("../images/jumbotron.jpg");
+  background-position: top;
+  background-size: cover;
+}
+
+.footer-top {
+  height: 400px;
+  background-image: url("../images/footer-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  padding-top: 20px;
+}
+.footer-top ul {
+  list-style-type: none;
+}
+
+.footer-bottom {
+  padding: 15px;
+  min-height: 180px;
+  display: flex;
+  align-items: center;
+  background: #303030;
+  color: #fff;
+  justify-content: start;
+}
+
+/*CONTAINER E COL PER IL FOOTER*/
+.container-mini {
+  min-width: 500px;
+  display: flex;
+  flex-direction: row;
+}
+.container-mini .col {
+  margin-top: 20px;
+  width: 33.3333333333%;
+}
+.container-mini .col a {
+  color: #fff;
+}
+.container-mini .col h4 {
+  margin-bottom: 10px;
+}
+.container-mini .col ul {
+  list-style-type: none;
+}
+.container-mini .col ul li {
+  margin-right: 10px;
+}
+.container-mini .col ul li a:hover {
+  color: #0c7cec;
+}
+
+.poisition-end {
+  position: absolute;
+  right: 0;
+  top: 50px;
+}
+
+.dc-foot {
+  position: absolute;
+  right: 60px;
+}
+
+/*FOOTER BOTTOM*/
+.d-inline li {
+  margin-right: 10px;
+}
+.d-inline li a:hover {
+  filter: invert(1);
+}
+
+.col-foot {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/*BUTTON OUTLINE*/
+.btn-outline-b {
+  padding: 10px;
+  border: 1px solid #0c7cec;
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+}
+.btn-outline-b:hover {
+  background-color: #0c7cec;
+}
+
+.follow {
+  vertical-align: 10px;
+  color: #0c7cec;
+  font-size: 1.2em;
 }
