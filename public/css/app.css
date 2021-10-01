@@ -137,11 +137,41 @@ figure {
   padding: 6px;
 }
 
+#products {
+  min-height: 120px;
+  background-color: #000;
+  color: #fff;
+  font-size: 1.2em;
+}
+
 .jumbotron {
-  min-height: 500px;
+  height: 500px;
   background-image: url("../images/jumbotron.jpg");
   background-position: top;
   background-size: cover;
+}
+
+.current {
+  background-color: #0c7cec;
+  padding: 10px;
+  height: 40px;
+  position: relative;
+  bottom: 10px;
+  left: 80px;
+  font-size: 1.2em;
+}
+
+.loadMoreBtn {
+  padding: 0 60px;
+  height: 40px;
+  background-color: #0c7cec;
+  border: 0;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.loadMoreBtn:hover {
+  background-color: #096dd1;
 }
 
 .footer-top {
