@@ -16,11 +16,13 @@ body{
 .container{
   max-width: 1200px;
   margin: 0 auto;
-  .row{
-      display: flex;
-  }
 }
-
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+  }
 
 img{
   max-width: 100%;

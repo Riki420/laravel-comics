@@ -1,0 +1,20 @@
+/*CARD*/
+.col-card{
+    display: flex;
+    flex-wrap: wrap;
+    .card{
+        flex-basis: 25%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        img{
+            width: 50%;
+            &:hover{
+                filter:grayscale(0.5);
+                cursor: pointer;
+            }
+        }
+    }
+}

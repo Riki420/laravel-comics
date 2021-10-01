@@ -28,8 +28,12 @@ body {
   max-width: 1200px;
   margin: 0 auto;
 }
-.container .row {
+
+.row {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: start;
 }
 
 img {
@@ -100,6 +104,27 @@ a {
 
 .w-25 {
   width: 25%;
+}
+
+/*CARD*/
+.col-card {
+  display: flex;
+  flex-wrap: wrap;
+}
+.col-card .card {
+  flex-basis: 25%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.col-card .card img {
+  width: 50%;
+}
+.col-card .card img:hover {
+  filter: grayscale(0.5);
+  cursor: pointer;
 }
 
 /*HEADER*/
