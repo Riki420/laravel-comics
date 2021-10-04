@@ -10,7 +10,7 @@
     <footer>
     <!--FOOTER TOP-->
         <div class="footer-top">
-            <div class="container d-flex">
+            <div class="container d-flex text-foot">
                     <div class="col">
                         <h3>DC COMICS</h3>
                         <ul class="mt-2">

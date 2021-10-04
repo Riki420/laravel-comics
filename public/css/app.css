@@ -29,6 +29,10 @@ body {
   margin: 0 auto;
 }
 
+.w-75 {
+  width: 75%;
+}
+
 .row {
   display: flex;
   flex-direction: row;
@@ -112,11 +116,11 @@ a {
   flex-wrap: wrap;
 }
 .col-card .card {
-  flex-basis: 25%;
+  flex-basis: 15%;
   text-align: center;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 .col-card .card img {
@@ -170,19 +174,16 @@ figure {
 }
 
 .jumbotron {
-  height: 500px;
+  height: 400px;
   background-image: url("../images/jumbotron.jpg");
   background-position: top;
-  background-size: cover;
+  background-size: 90%;
 }
 
 .current {
   background-color: #0c7cec;
   padding: 10px;
   height: 40px;
-  position: relative;
-  bottom: 10px;
-  left: 80px;
   font-size: 1.2em;
 }
 
@@ -289,4 +290,12 @@ figure {
   vertical-align: 10px;
   color: #0c7cec;
   font-size: 1.2em;
+}
+
+.text-foot a {
+  color: #4e5f6d;
+}
+
+.wrapper {
+  display: flex;
 }

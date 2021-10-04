@@ -3,11 +3,11 @@
     display: flex;
     flex-wrap: wrap;
     .card{
-        flex-basis: 25%;
+        flex-basis: 15%;
         text-align: center;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
         img{
             width: 50%;
