@@ -61,7 +61,8 @@
                             <h5>Art by:</h5>
                         </div>
                         <div class="list-detail">
-                            <h5>Written By:</h5>
+                            <h5>Written By:
+                            </h5>
                         </div>
                         <div class="list-detail">
                             <h5 class="capitalize">Type: {{ $comic['type'] }}</h5>
