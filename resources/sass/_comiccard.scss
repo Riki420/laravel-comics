@@ -1,19 +1,24 @@
 .wrapper{
     display: flex;
-    align-items:stretch
+    align-items:stretch;
+    flex-wrap: wrap;
 }
 .wrapper-between{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .p-2{
-    padding: 20px 10px;
+    padding: 20px 20px;
 }
 .bg-dc{
     background-color: $dc-color;
     height: 80px;    
 }
-
+#detail-section{
+    position: relative;
+    bottom: 100px;
+}
 .comic-card-img{
         position: relative;
         bottom: 220px;
@@ -51,6 +56,15 @@
         text-align: right;
         font-size: 0.8em;
     }
+
+.list-detail{
+    padding: 20px 10px;
+    border-bottom: 1px solid #000;
+    a{
+        color: $dc-color;
+        text-transform: uppercase;
+    }
+}
 
 .bg-g{
     background-color: #55ba59;

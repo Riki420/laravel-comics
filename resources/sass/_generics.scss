@@ -10,11 +10,11 @@ body{
 }
 
 .container-foot{
-  min-width: 1200px;
+  min-width: 100%;
   margin: 0 auto;
 }
 .container{
-  max-width: 1200px;
+  max-width: 80%;
   margin: 0 auto;
 }
 .w-75{
@@ -26,6 +26,11 @@ body{
     flex-wrap: wrap;
     justify-content: start;
     align-items: stretch;
+  }
+  .d-flex-wrap-col{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
   }
 
 img{

@@ -12,12 +12,13 @@
 }
 .footer-bottom{
     padding: 15px;
-    min-height: 180px;
+    min-height: 190px;
     display: flex;
     align-items: center;
     background: #303030;
     color: #fff;
     justify-content: start;
+    flex-wrap: wrap;
 }
 
     /*CONTAINER E COL PER IL FOOTER*/
@@ -69,10 +70,8 @@
         }
     }
     .col-foot{
-        flex-grow: 1;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
+      display: flex;
+      justify-content: center;
     }
     
     /*BUTTON OUTLINE*/

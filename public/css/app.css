@@ -15,6 +15,14 @@
   text-align: right;
 }
 
+.uppercase {
+  text-transform: uppercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
 /*RESET*/
 * {
   margin: 0;
@@ -28,12 +36,12 @@ body {
 }
 
 .container-foot {
-  min-width: 1200px;
+  min-width: 100%;
   margin: 0 auto;
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 80%;
   margin: 0 auto;
 }
 
@@ -47,6 +55,12 @@ body {
   flex-wrap: wrap;
   justify-content: start;
   align-items: stretch;
+}
+
+.d-flex-wrap-col {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 img {
@@ -132,8 +146,11 @@ a {
   width: 50%;
 }
 
-.bg-4 {
-  background-color: #444;
+.prd-card {
+  padding: 20px;
+  height: 200px;
+  width: 140px;
+  margin: 10px 10px;
 }
 
 /*CARD*/
@@ -240,12 +257,13 @@ figure {
 
 .footer-bottom {
   padding: 15px;
-  min-height: 180px;
+  min-height: 190px;
   display: flex;
   align-items: center;
   background: #303030;
   color: #fff;
   justify-content: start;
+  flex-wrap: wrap;
 }
 
 /*CONTAINER E COL PER IL FOOTER*/
@@ -294,10 +312,8 @@ figure {
 }
 
 .col-foot {
-  flex-grow: 1;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 /*BUTTON OUTLINE*/
@@ -325,20 +341,27 @@ figure {
 .wrapper {
   display: flex;
   align-items: stretch;
+  flex-wrap: wrap;
 }
 
 .wrapper-between {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .p-2 {
-  padding: 20px 10px;
+  padding: 20px 20px;
 }
 
 .bg-dc {
   background-color: #0c7cec;
   height: 80px;
+}
+
+#detail-section {
+  position: relative;
+  bottom: 100px;
 }
 
 .comic-card-img {
@@ -373,6 +396,15 @@ figure {
   color: #444;
   text-align: right;
   font-size: 0.8em;
+}
+
+.list-detail {
+  padding: 20px 10px;
+  border-bottom: 1px solid #000;
+}
+.list-detail a {
+  color: #0c7cec;
+  text-transform: uppercase;
 }
 
 .bg-g {

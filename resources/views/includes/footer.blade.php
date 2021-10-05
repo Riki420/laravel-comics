@@ -64,31 +64,33 @@
         <!--FOOTER BOTTOM-->
         <div class="footer-bottom z-1">
             <div class="container-foot">
-                <div class="row">
-                    <div class="col-foot">
+                <div class="wrapper-between">
                         <!--BOTTONE SIGN-UP-->
-                        <button type="button" id="btn-signup" class="btn-outline-b">Sign-Up Now!</button>
-                        <ul class="none-style d-inline">
-                            <li>
-                                <span class="follow">FOLLOW US:</span>
-                            </li>
-                            <li>
-                                <a href="#"><img src="{{ asset('images/footer-facebook.png') }}" alt="Facebook-logo"></a> 
-                            </li>
-                            <li>
-                                <a href="#"><img src="{{ asset('images/footer-periscope.png') }}" alt="Periscope-logo"></a> 
-                            </li>
-                            <li>
-                                <a href="#"><img src="{{ asset('images/footer-pinterest.png') }}" alt="pinterest-logo"></a> 
-                            </li>
-                            <li>
-                                <a href="#"><img src="{{ asset('images/footer-twitter.png') }}" alt="twitter-logo"></a> 
-                            </li>
-                            <li>
-                                <a href="#"><img src="{{ asset('images/footer-youtube.png') }}" alt="youtube-logo"></a> 
-                            </li>
-                        </ul>
-                    </div>
+                        <div>
+                            <button type="button" id="btn-signup" class="btn-outline-b">Sign-Up Now!</button>
+                        </div>
+                        <div>
+                            <ul class="none-style d-inline">
+                                <li>
+                                    <span class="follow">FOLLOW US:</span>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="{{ asset('images/footer-facebook.png') }}" alt="Facebook-logo"></a> 
+                                </li>
+                                <li>
+                                    <a href="#"><img src="{{ asset('images/footer-periscope.png') }}" alt="Periscope-logo"></a> 
+                                </li>
+                                <li>
+                                    <a href="#"><img src="{{ asset('images/footer-pinterest.png') }}" alt="pinterest-logo"></a> 
+                                </li>
+                                <li>
+                                    <a href="#"><img src="{{ asset('images/footer-twitter.png') }}" alt="twitter-logo"></a> 
+                                </li>
+                                <li>
+                                    <a href="#"><img src="{{ asset('images/footer-youtube.png') }}" alt="youtube-logo"></a> 
+                                </li>
+                            </ul>
+                        </div>
                 </div>
             </div>
         </div>
