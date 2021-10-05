@@ -3,8 +3,16 @@
   color: #0c7cec;
 }
 
+.text-white {
+  color: #fff;
+}
+
 .text-center {
   text-align: center;
+}
+
+.text-right {
+  text-align: right;
 }
 
 /*RESET*/
@@ -177,7 +185,7 @@ figure {
   height: 400px;
   background-image: url("../images/jumbotron.jpg");
   background-position: top;
-  background-size: 90%;
+  background-size: cover;
 }
 
 .current {
@@ -298,4 +306,67 @@ figure {
 
 .wrapper {
   display: flex;
+}
+
+.wrapper-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.p-2 {
+  padding: 20px 10px;
+}
+
+.bg-dc {
+  background-color: #0c7cec;
+  height: 80px;
+}
+
+.comic-card-img {
+  position: relative;
+  bottom: 220px;
+  height: 200px;
+  width: 140px;
+  border: 1px solid black;
+  background-image: url("https://www.dccomics.com/sites/default/files/styles/covers192x291/public/comic-covers/2018/09/AC1000_DLX_162-001_HD_5ba13723281ab0.37845353.jpg?itok=ZsI-C5eX");
+  background-position: center;
+  background-size: contain;
+}
+.comic-card-img .comic-book {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #0c7cec;
+  color: #fff;
+}
+.comic-card-img .view-gallery {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #0c7cec;
+  text-align: center;
+  color: #fff;
+}
+
+.col-8 {
+  width: 80%;
+}
+
+.col-2 {
+  width: 20%;
+}
+
+.adv {
+  color: #444;
+  text-align: right;
+  font-size: 0.8em;
+}
+
+.bg-g {
+  background-color: #55ba59;
+}
+
+.br-r {
+  border-right: 1px solid black;
 }

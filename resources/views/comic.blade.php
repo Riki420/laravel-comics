@@ -4,21 +4,54 @@
 
 @section('content')
     <div class="jumbotron"></div>
+    <div class="bg-dc"></div>
     <div class="container">
-            <span class="">
-                <figure>
-                    <img src="https://www.dccomics.com/sites/default/files/styles/covers192x291/public/comic-covers/2018/09/AC1000_DLX_162-001_HD_5ba13723281ab0.37845353.jpg?itok=ZsI-C5eX" alt="">    
-                </figure>
-            </span>
-            <div class="wrapper">
-                
-               <h1 class="dc-text">Action Comics #1000: The Deluxe Edition</h1>
-               <div class="price-box">
-
-               </div>
-               <div class="availability">
-
-               </div>
+            <!--COMIC IMG-->
+            <div class="comic-card-img">
+                <div class="comic-book">
+                    Comic Book
+                </div>
+                <div class="view-gallery">
+                    View Gallery
+                </div>
             </div>
-        </div>
+            <div class="row">
+                <!--COMIC INFO-->
+                <div class="col-8 p-2">
+                    <h1 class="dc-text mb-2">Superman</h1>
+                    <div class="wrapper mb-2">
+                        <div class="col-8 bg-g br-r wrapper-between p-2">
+                            Price detail
+                            <div class="text-right">
+                                Available
+                            </div>
+                        </div>
+                        <div class="col-2 bg-g p-2 text-white">
+                            Check Availability
+                        </div>
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                        Vero deleniti voluptatibus ipsum reiciendis eum tenetur porro assumenda totam tempore dolorem dolor commodi nulla veritatis,
+                        quae exercitationem nam debitis voluptatem consequatur!
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                        Vero deleniti voluptatibus ipsum reiciendis eum tenetur porro assumenda totam tempore dolorem dolor commodi nulla veritatis,
+                        quae exercitationem nam debitis voluptatem consequatur!
+                    </p>
+                </div>
+                <!--COMIC ADV-->
+                <div class="col-2 p-2">
+                    <div class="adv">
+                        <div class="text-right">
+                            ADVERTISEMENT
+                        </div>
+                        <figure>
+                            <img src="../../images/adv.jpg" alt="">
+                        </figure>
+                    </div>
+                    
+                </div>
+            </div>
+        
+    </div>
 @endsection
