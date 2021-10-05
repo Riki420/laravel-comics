@@ -19,34 +19,32 @@
         bottom: 220px;
         height: 200px;
         width: 140px;
-        border: 1px solid black;
-        background-position: center;
-        background-size: contain;
+        .border-white{
+            border: 1px solid #fff;
+        }      
         .comic-book{
             position: absolute;
             top: 0;
             left: 0;
-            background-color: $dc-color;
+            background-color: #00a9d9;
             color: #fff;
+            padding: 2px;
         }
         .view-gallery{
             position:absolute;
             bottom: 0;
             left: 0;
             width: 100%;
-            background-color: $dc-color;
+            background-color: #00a9d9;
             text-align: center;
             color: #fff;
+            padding: 2px;
+
         }
     }
     
 
-.col-8{
-    width: 80%;
-    }
-.col-2{
-    width: 20%;
-    }
+
 
     .adv{
         color: #444;

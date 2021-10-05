@@ -119,6 +119,23 @@ a {
   width: 25%;
 }
 
+/*COL*/
+.col-8 {
+  width: 80%;
+}
+
+.col-2 {
+  width: 20%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.bg-4 {
+  background-color: #444;
+}
+
 /*CARD*/
 .col-card {
   display: flex;
@@ -329,34 +346,27 @@ figure {
   bottom: 220px;
   height: 200px;
   width: 140px;
-  border: 1px solid black;
-  background-image: url("https://www.dccomics.com/sites/default/files/styles/covers192x291/public/comic-covers/2018/09/AC1000_DLX_162-001_HD_5ba13723281ab0.37845353.jpg?itok=ZsI-C5eX");
-  background-position: center;
-  background-size: contain;
+}
+.comic-card-img .border-white {
+  border: 1px solid #fff;
 }
 .comic-card-img .comic-book {
   position: absolute;
   top: 0;
   left: 0;
-  background-color: #0c7cec;
+  background-color: #00a9d9;
   color: #fff;
+  padding: 2px;
 }
 .comic-card-img .view-gallery {
   position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
-  background-color: #0c7cec;
+  background-color: #00a9d9;
   text-align: center;
   color: #fff;
-}
-
-.col-8 {
-  width: 80%;
-}
-
-.col-2 {
-  width: 20%;
+  padding: 2px;
 }
 
 .adv {

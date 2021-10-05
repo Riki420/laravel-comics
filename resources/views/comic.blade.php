@@ -11,6 +11,7 @@
                 <div class="comic-book">
                     Comic Book
                 </div>
+                <img src="{{$comic['thumb']}}" alt="{{$comic['title']}}" class="border-white">
                 <div class="view-gallery">
                     View Gallery
                 </div>
@@ -45,6 +46,26 @@
                         </figure>
                     </div>
                     
+                </div>
+            </div>
+            <div class="wrapper">
+                <div class="col-6">
+                    <h3 class="dc-color">Talent</h3>
+                    <hr>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+                <div class="col-6">
+                    <h3 class="dc-color">Specs</h3>
+                    <hr>
+                    <ul>
+                        <li>{{ $comic['series'] }}</li>
+                        <li>{{ $comic['price'] }}</li>
+                        <li>{{ $comic['sale_date'] }}</li>
+                    </ul>
                 </div>
             </div>
         
