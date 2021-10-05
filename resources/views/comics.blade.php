@@ -10,9 +10,11 @@
 
                 <div class="col-card py-2">
                         @foreach ($comics as $comic)
-                             <div class="card mt-2">                  
-                                <img src="{{$comic['thumb']}}" alt="{{$comic['series']}}">
-                                <h6>{{$comic['series']}}</h6>
+                             <div class="card mt-2">
+                                <a href="{{url("/comic/$loop->index")}}">                  
+                                    <img src="{{$comic['thumb']}}" alt="{{$comic['series']}}">
+                                </a>
+                                <h6>{{$comic['title']}}</h6>
                                 <p>{{$comic['price']}}</p>
                              </div>
                         @endforeach

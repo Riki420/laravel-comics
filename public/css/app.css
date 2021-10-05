@@ -46,6 +46,7 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: start;
+  align-items: stretch;
 }
 
 img {
@@ -306,6 +307,7 @@ figure {
 
 .wrapper {
   display: flex;
+  align-items: stretch;
 }
 
 .wrapper-between {

@@ -18,7 +18,7 @@
             <div class="row">
                 <!--COMIC INFO-->
                 <div class="col-8 p-2">
-                    <h1 class="dc-text mb-2">Superman</h1>
+                    <h1 class="dc-text mb-2">{{$comic['title']}}</h1>
                     <div class="wrapper mb-2">
                         <div class="col-8 bg-g br-r wrapper-between p-2">
                             Price detail
@@ -31,12 +31,7 @@
                         </div>
                     </div>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                        Vero deleniti voluptatibus ipsum reiciendis eum tenetur porro assumenda totam tempore dolorem dolor commodi nulla veritatis,
-                        quae exercitationem nam debitis voluptatem consequatur!
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                        Vero deleniti voluptatibus ipsum reiciendis eum tenetur porro assumenda totam tempore dolorem dolor commodi nulla veritatis,
-                        quae exercitationem nam debitis voluptatem consequatur!
+                        {{$comic['description']}}
                     </p>
                 </div>
                 <!--COMIC ADV-->
